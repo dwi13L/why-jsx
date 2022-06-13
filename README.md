@@ -1,5 +1,7 @@
 Exploring how coding in react would be without the tooling and JSX.
 
+Click here for <a href="https://dwi13l.github.io/why-jsx/" target="_blank" rel="noopener noreferrer">POC</a>. 
+
 ### Here's the JavaScript code behind the scenes
 
 ```js
