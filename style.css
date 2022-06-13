@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    text-align: center;
+}
+
+.title-container{
+    border-bottom: 1px solid blue;
+}
+
+.contact{
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:500px) {
+    .contact{
+        display: block;
+    }
+}
+
+.contact:hover{
+    transform: scale(1.05);
+}
