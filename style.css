@@ -26,3 +26,24 @@ html,body{
 .contact:hover{
     transform: scale(1.05);
 }
+
+
+.repo-link{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.25s ease-out;
+    opacity: 0.5;
+    margin: 5px;
+
+}
+
+.repo-link:hover{
+    opacity: 1;
+}
+
+.repo-link img{
+    height: 5vh;
+    border-radius: .5em;
+}
